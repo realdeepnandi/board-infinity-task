@@ -66,6 +66,7 @@
 * ExpressJS
 * body-parser
 * uniqid
+* mongodb connector for nodejs
 * pug
 * CRON
 * MongoDB (Used MongoDB Atlas for the hosted website)
