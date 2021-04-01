@@ -46,7 +46,7 @@ app.post("/add", (req, res) => {
             if (err) throw err;
         });
         var duration = parseInt(fetch.duration);
-        var i = 0;
+        var i = -1;
         var job = new CronJob("* * * * * *", function () {
             i++;
             if (i == duration * 60) {
