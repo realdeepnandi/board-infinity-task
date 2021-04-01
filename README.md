@@ -43,7 +43,7 @@
 * The tabular structure is visible with respective fields and values
 * This data is automatically deleted (as per the example, in 5 minutes) as per the data provided in duration (minutes)
 
-## Method 2 (Through Postman/Curl and other similar services)
+## Method 2 (Through Postman/Curl or other similar services)
 
 <img src="https://cdn.discordapp.com/attachments/797498334133616701/827098164858454056/unknown.png" width="540px">
 
