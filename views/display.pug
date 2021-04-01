@@ -1,0 +1,30 @@
+link(rel='stylesheet' href='./style.css')
+center
+ table(border='' cellpadding='6' style='border-collapse:collapse')
+  tr
+    td(align='center' style="font-size:20px")
+      | Task Name
+    td(align='center' style="font-size:20px")
+      | Description
+    td(align='center' style="font-size:20px")
+      | Creator
+    td(align='center' style="font-size:20px")
+      | Duration (in minute(s))
+    td(align='center' style="font-size:20px")
+      | Date of Creation
+    each val in items
+        tr
+        td(align='center')
+            =val.task_name 
+        td(align='center')  
+            =val.description
+        td(align='center')  
+            =val.creator
+        td(align='center')  
+            =val.duration 
+        td(align='center')  
+            =val.createdAt
+ br
+ br
+ a(href="/" style='color:white')
+  |  Add another task

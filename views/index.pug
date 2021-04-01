@@ -1,0 +1,30 @@
+doctype html
+head
+  link(rel='stylesheet' href='./style.css')
+
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Form
+center
+ div(classname='App')
+  
+  header(classname='App-header')
+    form(action='add' method='post' id="form")
+      p  Enter the details mentioned 
+      br
+      br 
+      input(type='text' name='task_name' autofocus placeholder="Task Name")
+      br
+      br
+      input(type='text' name='description' placeholder="Description")
+      br
+      br
+      input(type='text' name='creator'  placeholder="Creator")
+      br
+      br
+      input(type='number' name='duration'  placeholder="Duration (in minutes)")
+      br
+      br
+      input(type='submit' value='Submit' id='submit')
+      br

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.heading {
+  font-size: 55px;
+}
+* {
+  background-color: #282c34;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  width: 55%;
+  text-align: center;
+}
+input[type="submit"] {
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  outline: none;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: rgb(65, 62, 62);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
