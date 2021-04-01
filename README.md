@@ -4,6 +4,7 @@
 * Change the directory `cd board-infinity-task`
 * Run the server `npm start`
 * The server is running at [localhost:3000](http://localhost:3000)
+* Make sure your MongoDB is installed and running. For installing MongoDB locally refer [this](https://docs.mongodb.com/manual/installation/)
 
 # Components of the code
 
